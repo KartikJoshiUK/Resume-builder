@@ -1,0 +1,441 @@
+{
+  "header": {
+    "name": {
+      "type": "link",
+      "text": "Kartik Joshi",
+      "url": "https://kartikjoshi.netlify.app"
+    },
+    "designation": "Software Engineer",
+    "bio": "Versatile Full Stack Developer with extensive experience in mobile and web technologies. Proven track record of enhancing user engagement and streamlining backend operations. Eager to apply technical skills expertise to drive impactful projects.",
+    "socials": [
+      {
+        "type": "icon-link",
+        "icon": "github",
+        "text": "@KartikJoshiUK",
+        "url": "https://github.com/kartikjoshiuk"
+      },
+      {
+        "type": "icon-link",
+        "icon": "linkedIn",
+        "text": "@KartikJoshiUK",
+        "url": "https://www.linkedin.com/in/kartikjoshiuk"
+      },
+      {
+        "type": "icon-link",
+        "icon": "portfolio",
+        "text": "Portfolio",
+        "url": "https://kartikjoshi.netlify.app"
+      },
+      {
+        "type": "icon-link",
+        "icon": "mobile",
+        "text": "+91 7011037081",
+        "url": "tel:+ 7011037081"
+      },
+      {
+        "type": "icon-link",
+        "icon": "mail",
+        "text": "kartikjoshiuk@gmail.com",
+        "url": "mailto:+ 7011037081"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "SKILLS",
+    "categoryList": [
+      {
+        "category": "Web",
+        "skillList": [
+          "NextJS",
+          "ReactJS",
+          "AngularJS",
+          "NodeJS",
+          "ExpressJS",
+          "Django",
+          "Spring",
+          "Flask",
+          "HTML5",
+          "CSS",
+          "JavaScript",
+          "Tailwind",
+          "SCSS",
+          "VueJS",
+          "Svelte"
+        ]
+      },
+      {
+        "category": "Mobile (Android/IOS)",
+        "skillList": ["ReactNative", "Flutter", "Kotlin", "Java", "XML"]
+      },
+      {
+        "category": "Backend",
+        "skillList": ["REST API", "gRPC", "WebSockets", "Socket.io"]
+      },
+      {
+        "category": "Game",
+        "skillList": ["Unity", "Unreal", "Blender", "C#", "Flutter-flame"]
+      },
+      {
+        "category": "Data",
+        "skillList": ["SQL", "GraphQL", "MongoDB", "PostgreSQL"]
+      },
+      {
+        "category": "Testing",
+        "skillList": ["Jest", "React testing library", "Cypress", "Playwright"]
+      },
+      {
+        "category": "ML",
+        "skillList": ["Python (Pandas, Numpy)", "MatLab", "SciLabs"]
+      },
+      {
+        "category": "DevOps",
+        "skillList": ["Docker", "Kubernetes", "Yaml"]
+      },
+      {
+        "category": "Cloud",
+        "skillList": [
+          "Amazon Web Services (AWS)",
+          "Google Cloud Platform (GCP)"
+        ]
+      },
+      {
+        "category": "Languages",
+        "skillList": ["C", "C++", "Java", "TypeScript"]
+      },
+      {
+        "category": "SAAS",
+        "skillList": ["Firebase", "Appwrite", "Supabase", "Sanity.io"]
+      },
+      {
+        "category": "Version Control",
+        "skillList": ["Git", "Github", "Gitlab", "BitBucket"]
+      },
+      {
+        "category": "Others Tech",
+        "skillList": ["Framer-Motion", "Redux", "Postman", "Vs Code"]
+      },
+      {
+        "category": "Soft Skills",
+        "skillList": [
+          "Agile methodologies",
+          "problem-solving",
+          "team collaboration",
+          "time management"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "heading": "WORK EXPERIENCE",
+    "experienceList": [
+      {
+        "type": "link",
+        "url": "https://acecloud.ai/",
+        "company": "RTDS - AceCloud",
+        "role": "Assistant Software Engineer Intern",
+        "duration": "August 2024 - Present",
+        "location": "Gurugram, India",
+        "details": ["Learned about cloud", "Design patterns"]
+      },
+      {
+        "type": "link",
+        "url": "https://anokha.xyz/",
+        "company": "Anokha",
+        "role": "Full Stack Developer (Android/IOS)",
+        "duration": "2023",
+        "location": "Remote",
+        "details": [
+          "Led the development of a React Native app integrating Web3 technologies to enhance secure, decentralized user transactions.",
+          "Implemented robust server-side solutions using NodeJS and Express, significantly improving backend efficiency and scalability.",
+          "Tech Stack Used: React Native, NodeJS, ExpressJS, Web3, AWS (EC2, S3, DynamoDB), Redis."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://www.ast-sports.com/",
+        "company": "Advance Sports Technology",
+        "role": "Full Stack Developer Intern",
+        "duration": "Aug 2023 - Jan 2023",
+        "location": "New Delhi (Hybrid)",
+        "details": [
+          "Developed and maintained dynamic admin panels for employee management, increasing operational efficiency by 30%.",
+          "Enhanced user interface using NextJS and Tailwind CSS, achieving a 40% reduction in load times and a smoother user experience.",
+          "Tech Stack Used: NextJS, Tailwind CSS, NodeJS, ExpressJS, AWS (EC2)"
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://www.pacecourt.com/",
+        "company": "Pacecourt",
+        "role": "Full Stack Developer Intern",
+        "duration": "May 2023 – Jul 2023",
+        "location": "Remote",
+        "details": [
+          "Engineered and deployed a fully functional website, which increased customer engagement by 50%.",
+          "Integrated services with MongoDB, creating resilient data management and retrieval processes that supported high-traffic demands.",
+          "Tech Stack Used: ReactJS, NodeJS, Express, MongoDB"
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://iot4beginners.com/",
+        "company": "IOTEdu",
+        "role": "Full Stack Developer Intern",
+        "duration": "Feb 2023 - Apr 2023",
+        "location": "Remote",
+        "details": [
+          "Single-handedly developed critical software components, leading to a 25% increase in project delivery speed under senior supervision.",
+          "Mastered new technologies, specifically MSSQL and advanced security measures, to enhance application safety and data integrity.",
+          "Tech Stack Used: ReactJS, NodeJS, Express, MSSQL"
+        ]
+      }
+    ]
+  },
+  "freelance": {
+    "heading": "FREELANCE WORK EXPERIENCE",
+    "experienceList": [
+      {
+        "type": "link",
+        "url": "https://perpetual-liard.vercel.app/",
+        "company": "Perpetual",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "Mar 2024 - Apr 2024",
+        "location": "Remote",
+        "details": [
+          "Web app/ Dashboard for Crypto based app.",
+          "Tech Stack Used: NextJS."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://www.swayye.club/",
+        "company": "Swayye",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "Feb 2024 – Apr 2024",
+        "location": "Remote",
+        "details": [
+          "Development of Admin panel and website.",
+          "Tech Stack Used: ReactJS, NodeJS, AWS."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://www.nestware.in/",
+        "company": "Nestware",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "Feb 2022 - Feb 2023",
+        "location": "Remote",
+        "details": [
+          "Development of a full E-commerce webapp and backend panel to add products.",
+          "Tech Stack Used: NextJS, Google OAuth, Sanity.io."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://ambikatundwal.netlify.app/",
+        "company": "Portfolio",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "Dec 2022 – Jan 2023",
+        "location": "Remote",
+        "details": [
+          "Single page portfolio website with backend panel for dynamic content.",
+          "Tech Stack Used: ReactJS, Framer motion, Sanity.io."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "EDUCATION",
+    "educationList": [
+      {
+        "type": "link",
+        "url": "https://ipu.ac.in/",
+        "institution": "Guru Gobind Singh Indraprastha University",
+        "course": "B. Tech. (Information Technology)",
+        "duration": "2025",
+        "location": "New Delhi",
+        "details": [
+          "Relevant Coursework: Operating Systems (OS), Database Management System (DBMS), Web/Mobile Development, Software Engineering (Agile), Analytical and Applied Mathematics.",
+          "Research (VR Labs Simulation)",
+          "Collaborated on groundbreaking research exploring the applications of Augmented Reality (AR) and Virtual Reality (VR) across various sectors.",
+          "Designed and developed a VR solution for a physics lab experiment, which improved experiment accessibility and student engagement.",
+          "Tech Stack Used: Unity, Blender, AR/VR, Meta Quest 3, C#."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "PROJECTS",
+    "projectList": [
+      {
+        "type": "link",
+        "url": "https://hostify.netlify.app/",
+        "company": "Hostify",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "March 2023 - April 2023",
+        "location": "Remote",
+        "details": [
+          "Developed a cloud hosting service (SAAS) such as Netlify.",
+          "Impact: Highly scalable logging architecture using Kafka and ECS. Custom domain functionality using proxy server.",
+          "Tech Stack Used: VueJS, NodeJS, Docker, AWS ECS, AWS EC2, AWS S3, Apache Kafka, Clickhouse, Prisma and PostgreSQL."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://videoshift.netlify.app/",
+        "company": "VideoShift",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "May 2023 - June 2023",
+        "location": "Remote",
+        "details": [
+          "Developed a video transcoding application that converts video files between different formats to ensure compatibility across various platforms and devices.",
+          "Impact: Optimized video processing time by 30%, reducing server costs and improving user experience for media streaming applications.",
+          "Tech Stack Used: FFmpeg, Linux, Python, AWS Lambda, S3, Fargate for serverless, Elastic Container Service and Registry (ECS & ECR), Docker, DynamoDB Clerk-Auth and NextJS."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://kartikjoshi.netlify.app",
+        "company": "My portfolio",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "Dec 2022 – Jan 2023",
+        "location": "Remote",
+        "details": [
+          "Web based resume/portfolio (Do check this out).",
+          "Tech Stack Used: TypeScript, ReactJS, Framer Motion."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://kwitter.netlify.app",
+        "company": "K-witter",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "March 2023 - April 2023",
+        "location": "Remote",
+        "details": [
+          "Social media app.",
+          "Tech Stack Used: Flutter, dart, riverpod, appwrite."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://kshare.netlify.app",
+        "company": "K-Share",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "April 2023 - May 2023",
+        "location": "Remote",
+        "details": [
+          "Social media app to share arts publicly.",
+          "Tech Stack Used: Google OAuth, ReactJS."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://kmovies.netlify.app",
+        "company": "K-Movies",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "May 2023 - June 2023",
+        "location": "Remote",
+        "details": [
+          "Web and Mobile app with movies database",
+          "Tech Stack Used: ReactJS, React Native."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://newstomobile.netlify.app",
+        "company": "NewsToMobile",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "June 2023 - July 2023",
+        "location": "Remote",
+        "details": [
+          "Real time news web app.",
+          "Tech Stack Used: ReactJS (Class Based)."
+        ]
+      },
+      {
+        "type": "link",
+        "url": "https://easy-trip.netlify.app",
+        "company": "Easy-Trip",
+        "role": "Full Stack Developer (Freelance)",
+        "duration": "July 2023 - August 2023",
+        "location": "Remote",
+        "details": [
+          "Travel booking web app for hackathons",
+          "Tech Stack Used: Firebase, Framer motion, ReactJS."
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "heading": "CERTIFICATIONS",
+    "certificationList": [
+      {
+        "type": "link",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/GQW4JZUQ7V3J",
+        "institution": "Meta @Coursera",
+        "title": "Advance React"
+      },
+      {
+        "type": "link",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/9YR7X7QH7VH3",
+        "institution": "Google @Coursera",
+        "title": "Networks and Network Security"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-c64d3916-7de3-46cf-a299-5a80dfa78a2e/",
+        "institution": "Asim Hussain @Udemy",
+        "title": "Advanced Javascript"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-c5598819-460d-4d43-9367-c19b2051398f/",
+        "institution": "Dr. Angela Yu @Udemy",
+        "title": "Web Development Bootcamp"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-92b68642-db8d-4a9a-b2fc-1aac74f93dba/",
+        "institution": "Manik @Udemy",
+        "title": "Design Patterns and SOLID Principles"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-363da133-b474-4e5e-9998-34b3ebd4a033/",
+        "institution": "Maximillian Schwarzmuller @Udemy",
+        "title": "Advanced Typescript"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-25aba291-8c78-45b3-a39d-76ccfab91bec/",
+        "institution": "The BA Guide @Udemy",
+        "title": "Agile Methodologies"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-1a7a38a7-40ac-475b-8b14-8638bce3faf3/",
+        "institution": "Kosh Sarkar @Udemy",
+        "title": "JIRA & Confluence"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-eb07018f-f024-45eb-ae61-ce66faf36091/",
+        "institution": "Ariel Weinberger @Udemy",
+        "title": "NestJS"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-bd5d2491-1021-4b19-a569-dbbac01017da/",
+        "institution": "Stephen Grider @Udemy",
+        "title": "NextJS"
+      },
+      {
+        "type": "link",
+        "url": "https://www.udemy.com/certificate/UC-6190e92d-85fd-4829-a6c7-6dfd8cde42d2/",
+        "institution": "Codingdogo @Udemy",
+        "title": "Git"
+      }
+    ]
+  }
+}

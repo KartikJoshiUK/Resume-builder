@@ -1,0 +1,36 @@
+{
+  "header": {
+    "name": {
+      "type": "",
+      "text": "",
+      "url": ""
+    },
+    "designation": "",
+    "bio": "",
+    "socials": []
+  },
+  "skills": {
+    "heading": "",
+    "categoryList": []
+  },
+  "work": {
+    "heading": "",
+    "experienceList": []
+  },
+  "freelance": {
+    "heading": "",
+    "experienceList": []
+  },
+  "education": {
+    "heading": "",
+    "educationList": []
+  },
+  "projects": {
+    "heading": "",
+    "projectList": []
+  },
+  "certifications": {
+    "heading": "",
+    "certificationList": []
+  }
+}
