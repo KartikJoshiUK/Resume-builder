@@ -1,8 +1,8 @@
-import { Button } from "../ui/button"
-import { Input } from "../ui/input"
-import { Textarea } from "../ui/textarea"
-import { Label } from "../ui/label"
-import { Card, CardHeader, CardTitle, CardContent } from "../ui/card"
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
+import { Label } from "../ui/label";
+import { Card, CardHeader, CardTitle, CardContent } from "../ui/card";
 
 export interface Project {
   type: string;
@@ -22,7 +22,11 @@ interface ProjectInputProps {
   removeProject: () => void;
 }
 
-const ProjectInput = ({ project, updateProject, removeProject }: ProjectInputProps) => (
+const ProjectInput = ({
+  project,
+  updateProject,
+  removeProject,
+}: ProjectInputProps) => (
   <div className="grid gap-2 mb-4">
     <Input
       placeholder="Type"
@@ -31,7 +35,7 @@ const ProjectInput = ({ project, updateProject, removeProject }: ProjectInputPro
     />
     <Input
       placeholder="URL (optional)"
-      value={project.url || ''}
+      value={project.url || ""}
       onChange={(e) => updateProject({ ...project, url: e.target.value })}
     />
     <Input
@@ -41,45 +45,60 @@ const ProjectInput = ({ project, updateProject, removeProject }: ProjectInputPro
     />
     <Textarea
       placeholder="Details (one per line)"
-      value={project.details.join('\n')}
-      onChange={(e) => updateProject({ ...project, details: e.target.value.split('\n').filter(detail => detail.trim() !== '') })}
+      value={project.details.join("\n")}
+      onChange={(e) =>
+        updateProject({
+          ...project,
+          details: e.target.value
+            .split("\n")
+            .filter((detail) => detail.trim() !== ""),
+        })
+      }
     />
-    <Button onClick={removeProject} variant="destructive">Remove Project</Button>
+    <Button onClick={removeProject} variant="destructive">
+      Remove Project
+    </Button>
   </div>
-)
+);
 
 interface ProjectsInputProps {
   projects: Projects;
   setProjects: (projects: Projects) => void;
 }
 
-export default function ProjectsInput({ projects, setProjects }: ProjectsInputProps) {
+export default function ProjectsInput({
+  projects,
+  setProjects,
+}: ProjectsInputProps) {
   const addProject = () => {
     setProjects({
       ...projects,
-      projectList: [...projects.projectList, {
-        type: '',
-        title: '',
-        details: []
-      }]
-    })
-  }
+      projectList: [
+        ...projects.projectList,
+        {
+          type: "",
+          title: "",
+          details: [],
+        },
+      ],
+    });
+  };
 
   const updateProject = (index: number, updatedProject: Project) => {
-    const newProjectList = [...projects.projectList]
-    newProjectList[index] = updatedProject
-    setProjects({ ...projects, projectList: newProjectList })
-  }
+    const newProjectList = [...projects.projectList];
+    newProjectList[index] = updatedProject;
+    setProjects({ ...projects, projectList: newProjectList });
+  };
 
   const removeProject = (index: number) => {
-    const newProjectList = projects.projectList.filter((_, i) => i !== index)
-    setProjects({ ...projects, projectList: newProjectList })
-  }
+    const newProjectList = projects.projectList.filter((_, i) => i !== index);
+    setProjects({ ...projects, projectList: newProjectList });
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log(JSON.stringify(projects, null, 2))
-  }
+    e.preventDefault();
+    console.log(JSON.stringify(projects, null, 2));
+  };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8 max-w-2xl mx-auto p-4">
@@ -94,7 +113,9 @@ export default function ProjectsInput({ projects, setProjects }: ProjectsInputPr
               <Input
                 id="projects-heading"
                 value={projects.heading}
-                onChange={(e) => setProjects({ ...projects, heading: e.target.value })}
+                onChange={(e) =>
+                  setProjects({ ...projects, heading: e.target.value })
+                }
               />
             </div>
           </div>
@@ -110,7 +131,9 @@ export default function ProjectsInput({ projects, setProjects }: ProjectsInputPr
             <ProjectInput
               key={index}
               project={project}
-              updateProject={(updatedProject: Project) => updateProject(index, updatedProject)}
+              updateProject={(updatedProject: Project) =>
+                updateProject(index, updatedProject)
+              }
               removeProject={() => removeProject(index)}
             />
           ))}
@@ -118,7 +141,9 @@ export default function ProjectsInput({ projects, setProjects }: ProjectsInputPr
         </CardContent>
       </Card>
 
-      <Button type="submit" className="w-full">Save Projects</Button>
+      <Button type="submit" className="w-full">
+        Save Projects
+      </Button>
     </form>
-  )
+  );
 }

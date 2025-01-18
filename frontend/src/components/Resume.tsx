@@ -28,7 +28,17 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
   return (
     <div ref={ref} id="resume" className="p-6 flex flex-col gap-4 max-w-4xl">
       <section className="flex flex-col items-center">
-        <h1 className="font-bold text-4xl">{data.header.name.text}</h1>
+        {data.header.name.url ? (
+          <a
+            target="_blank"
+            className="font-bold text-4xl"
+            href={data.header.name.url}
+          >
+            {data.header.name.text}
+          </a>
+        ) : (
+          <h1 className="font-bold text-4xl">{data.header.name.text}</h1>
+        )}
         <h2>{data.header.designation}</h2>
         <nav>
           <ul className="flex gap-3 flex-wrap justify-center">
@@ -46,15 +56,15 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
             ))}
           </ul>
         </nav>
-        <p className="text-sm text-center mx-24">{data.header.bio}</p>
+        <p className="text-xs text-center mx-14">{data.header.bio}</p>
       </section>
       <section>
         <h2 className="font-bold border-b text-2xl">{data.skills.heading}</h2>
-        <ul className="list-disc ml-6">
+        <ul className="list-disc ml-6 text-xs">
           {data.skills.categoryList.map((category) => (
             <li key={category.category}>
               <div className="flex gap-2">
-                <h3 className="font-semibold ">{category.category}</h3>
+                <h3 className="font-semibold">{category.category}</h3>
                 <ul className="flex gap-1 flex-wrap">
                   {category.skillList.map((skill, index) => (
                     <li key={skill}>
@@ -72,7 +82,7 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
       </section>
       <section>
         <h2 className="font-bold border-b text-2xl">{data.work.heading}</h2>
-        <ol className="list-decimal ml-6">
+        <ol className="list-decimal ml-6 text-xs">
           {data.work.experienceList.map((work) => (
             <li key={work.company}>
               <div className="flex gap-2">
@@ -99,7 +109,7 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
         <h2 className="font-bold border-b text-2xl">
           {data.freelance.heading}
         </h2>
-        <ol className="list-decimal ml-6">
+        <ol className="list-decimal ml-6 text-xs">
           {data.freelance.experienceList.map((freelance) => (
             <li key={freelance.company}>
               <div className="flex gap-2">
@@ -124,7 +134,7 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
       </section>
       <section>
         <h2 className="font-bold border-b text-2xl">{data.projects.heading}</h2>
-        <ol className="list-decimal ml-6">
+        <ol className="list-decimal ml-6 text-xs">
           {data.projects.projectList.map((projects) => (
             <li key={projects.title}>
               <div className="flex gap-2">
@@ -149,7 +159,7 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
         <h2 className="font-bold border-b text-2xl">
           {data.education.heading}
         </h2>
-        <ol className="list-decimal ml-6">
+        <ol className="list-decimal ml-6 text-xs">
           {data.education.educationList.map((education) => (
             <li key={education.institution}>
               <div className="flex gap-2">
@@ -174,7 +184,7 @@ function Resume({ data }: Props, ref: React.Ref<HTMLDivElement>) {
         <h2 className="font-bold border-b text-2xl">
           {data.certifications.heading}
         </h2>
-        <ul className="list-disc ml-6">
+        <ul className="list-disc ml-6 text-xs">
           {data.certifications.certificationList.map((certification) => (
             <li key={certification.url}>
               <div className="flex gap-2">

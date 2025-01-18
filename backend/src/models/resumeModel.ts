@@ -159,10 +159,7 @@ const resumeSchema: Schema = new Schema({
       {
         type: { type: String },
         url: { type: String },
-        company: { type: String },
-        role: { type: String },
-        duration: { type: String },
-        location: { type: String },
+        title: { type: String },
         details: [{ type: String }],
       },
     ],
